@@ -29,7 +29,7 @@ Prediction -> rows
                Accuracy: 0.9995
 
 ### Confusion Matrix and Statistics for SMOTE MODEL
-![ORG MODEL](./images/SmoteCARD.png)
+![SMOTE MODEL](./images/SmoteCARD.png)
 
 | Reference/Prediction | '0'    | '1'    |
 |-----------------------|--------|--------|
