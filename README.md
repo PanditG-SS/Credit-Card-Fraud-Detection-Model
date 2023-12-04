@@ -17,19 +17,21 @@ RESULTS:
 
 Confusion Matrix and Statistics for ORG MODEL
 
-          Reference
-Prediction   '0'   '1'
-       '0' 28428     5
-       '1'     8    39
+Reference----->
+
+Prediction                         '0'   '1'
+   ^                        '0' 28428     5
+   |                        '1'     8    39
                                           
                Accuracy: 0.9995          
          
 Confusion Matrix and Statistics for SMOTE MODEL
                                           
-          Reference
-Prediction   '0'   '1'
-       '0' 27958     1
-       '1'   478    43
+Reference----->
+
+Prediction                         '0'   '1'
+     ^                      '0' 27958     1
+     |                      '1'   478    43
                                           
                Accuracy: 0.9832  
 
