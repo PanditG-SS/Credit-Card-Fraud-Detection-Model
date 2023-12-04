@@ -18,7 +18,7 @@ Reference -> columns
 Prediction -> rows
 
 ### Confusion Matrix and Statistics for ORG MODEL
-![ORG MODEL](./images/OrgCARD.png)
+![ORG MODEL](./images/OrgCARD.jpg)
 
 
 | Reference/Prediction | '0'    | '1'    |
@@ -29,7 +29,7 @@ Prediction -> rows
                Accuracy: 0.9995
 
 ### Confusion Matrix and Statistics for SMOTE MODEL
-![SMOTE MODEL](./images/SmoteCARD.png)
+![SMOTE MODEL](./images/SmoteCARD.jpg)
 
 | Reference/Prediction | '0'    | '1'    |
 |-----------------------|--------|--------|
