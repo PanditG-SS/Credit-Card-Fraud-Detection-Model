@@ -18,7 +18,7 @@ Reference -> columns
 Prediction -> rows
 
 ### Confusion Matrix and Statistics for ORG MODEL
-![ORG MODEL](./Credit-Card-Fraud-Detection-Model/images/OrgCARD.png)
+![ORG MODEL](./images/OrgCARD.png)
 
 
 | Reference/Prediction | '0'    | '1'    |
@@ -29,7 +29,7 @@ Prediction -> rows
                Accuracy: 0.9995
 
 ### Confusion Matrix and Statistics for SMOTE MODEL
-![ORG MODEL](./Credit-Card-Fraud-Detection-Model/images/SmoteCARD.png)
+![ORG MODEL](./images/SmoteCARD.png)
 
 | Reference/Prediction | '0'    | '1'    |
 |-----------------------|--------|--------|
