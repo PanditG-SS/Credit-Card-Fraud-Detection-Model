@@ -13,25 +13,27 @@ to balance the dataset using several techniques, such as ROS( Random Over Sampli
 ROS and RUS have disadvantages, and we use a new technique called SMOTE( Synthetic Minority Oversampling TEchnique).
 This technique creates synthetic samples for our model.
 
-RESULTS:
+## Results
+Reference are the columns
+Prediction are the rows
 
-Confusion Matrix and Statistics for ORG MODEL
+### Confusion Matrix and Statistics for ORG MODEL
 
-Reference----->
+| Reference/Prediction | '0'    | '1'    |
+|-----------------------|--------|--------|
+| '0'                   | 28428  | 5      |
+| '1'                   | 8      | 39     |
 
-Prediction                         '0'   '1'
-   ^                        '0' 28428     5
-   |                        '1'     8    39
-                                          
-               Accuracy: 0.9995          
-         
-Confusion Matrix and Statistics for SMOTE MODEL
-                                          
-Reference----->
+               Accuracy: 0.9995
 
-Prediction                         '0'   '1'
-     ^                      '0' 27958     1
-     |                      '1'   478    43
+### Confusion Matrix and Statistics for SMOTE MODEL
+
+| Reference/Prediction | '0'    | '1'    |
+|-----------------------|--------|--------|
+| '0'                   | 27958  | 1      |
+| '1'                   | 478    | 43     |
+
+
                                           
                Accuracy: 0.9832  
 
