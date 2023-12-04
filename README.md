@@ -10,7 +10,7 @@ favour the majority class. This leads to errors in the classification of fraud c
 to balance the dataset using several techniques, such as ROS( Random Over Sampling ) and ( Random Under Sampling ).
 
 -->
-ROS and RUS have disadvantages, and we use a new technique called SMOTE( Synthetic Minority Over Sampling ).
+ROS and RUS have disadvantages, and we use a new technique called SMOTE( Synthetic Minority Oversampling TEchnique).
 This technique creates synthetic samples for our model.
 
 RESULTS:
