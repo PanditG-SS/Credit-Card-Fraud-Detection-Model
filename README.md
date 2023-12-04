@@ -14,8 +14,8 @@ ROS and RUS have disadvantages, and we use a new technique called SMOTE( Synthet
 This technique creates synthetic samples for our model.
 
 ## Results
-Reference are the columns
-Prediction are the rows
+Reference -> columns    
+Prediction -> rows
 
 ### Confusion Matrix and Statistics for ORG MODEL
 
@@ -39,5 +39,5 @@ Prediction are the rows
 
 Our main aim is to create a model which can correctly identify a maximum number of true positives.
 
-The Smote model is better (at a little less efficiency) as it correctly identifies more true positive fraud classes than the Org model, which is trained on all training data.       
+The Smote model is better (at a little less efficiency) as it correctly identifies more true positive fraud classes(43) than the Org model(39), which is trained on all training data.       
  
